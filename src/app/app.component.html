@@ -225,8 +225,11 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
-      <h1>Hello, {{ title }}</h1>
+      <h1>Hello, {{ text }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <app-random [upperBound]="10"></app-random>
+      <app-random [upperBound]="100"></app-random>
+      <app-list></app-list>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
